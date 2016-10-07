@@ -4,8 +4,9 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 /*
- * class FileHandler takes input file, converts lines into jobID, ArrivalTime, #ofBursts and
- * Burst Times(put into an arraylist)
+ * class FileHandler 
+ * Accepts a text-file input file, converts lines into jobID, ArrivalTime, #ofBursts and
+ * burst Times (added to an arraylist)
  */
 public class FileHandler {
 	private ArrayList<PCB> Jobs = new ArrayList<PCB>();

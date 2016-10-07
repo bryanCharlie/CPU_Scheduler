@@ -2,13 +2,13 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 /*
- * Project 1 340 
- * by Bryan Charlie and Tyler Soo Hoo
+ * Author: Bryan Charlie
+ * 10/4/2015
  */
 public class ProcessScheduler {
 	/*
-	 * main class takes in argument, puts into FileHandler class depending on amount of arguments inputted
-	 * sends outputted job list and quantum time (if applicable) to correct algorithm
+	 * Takes command line arguments to initialize the FileHandler class.
+	 * Sends a job list (and quantum time if applicable) to its respective algorithm
 	 */
 	public static void main(String[] args) throws FileNotFoundException{
 
